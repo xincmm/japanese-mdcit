@@ -1,0 +1,79 @@
+.Nwnts,
+.Wrugj {
+  border-width: 1px;
+  border-radius: calc(0.5rem - 2px);
+}
+
+.Nwnts table,
+.Wrugj table {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+  caption-side: bottom;
+}
+
+.Nwnts table tr,
+.Wrugj table tr {
+  border-bottom-width: 1px;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+
+.Nwnts table tr:last-child,
+.Wrugj table tr:last-child {
+  border-bottom-width: 0;
+}
+
+.Nwnts table tr th,
+.Wrugj table tr th {
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+  vertical-align: middle;
+  text-align: left;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Nwnts table tr td,
+.Wrugj table tr td {
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.wrugjL,
+.nwntsL {
+  width: 30%;
+}
+
+h2.midashigo {
+  display: none;
+}
+
+.dictNm {
+  margin-bottom: 12px;
+}
+
+.dictNm a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+hr.dot {
+  margin: 8px 0;
+}
+
+.nwntsR a,
+.wrugjR a,
+.Wrigo a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.kijiWrp {
+  font-size: 14px;
+}

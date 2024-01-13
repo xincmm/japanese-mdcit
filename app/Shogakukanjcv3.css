@@ -1,0 +1,138 @@
+.wr {
+  font-size: 140%;
+}
+
+.pinyin {
+  display: none;
+}
+
+.pinyin_h {
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+p[data-orgtag="meaning"] {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+p[data-orgtag="meaning"]::before {
+  content: "释义：";
+  color: #353835;
+  font-weight: bold;
+}
+
+p[data-orgtag="meaning"] b {
+  color: #353835 !important;
+}
+
+p[data-orgtag="example"] {
+  color: #007b7b;
+  margin: 8px 0 0 0;
+}
+
+span[type="語義区分2"] {
+  color: #2563eb;
+}
+
+div[data-orgtag="column"]::after {
+  content: "♥";
+  color: purle;
+}
+
+span.black-square {
+  color: #fff;
+  background: #d7514a;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+span.white-square {
+  color: black;
+  padding: 2px 5px;
+  margin-left: 2px;
+  font-size: 0.85em;
+  border-radius: 4px;
+  background: gold;
+}
+
+span.sx {
+  font-size: 60%;
+  color: #ff1d8f;
+}
+
+div[data-orgtag="subheadword"] {
+  margin: 20px 0 10px 0;
+  font-size: 14px;
+  color: #353835 !important;
+}
+div[data-orgtag="subheadword"][type="複合語"]::before {
+  content: "複合語";
+  color: black !important;
+  background: antiquewhite;
+  padding: 2px 5px;
+  margin-right: 5px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+div[data-orgtag="subheadword"][type="慣用句"]::before {
+  content: "慣用句";
+  color: black !important;
+  background: antiquewhite;
+  padding: 2px 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+div[data-orgtag="subhead"] {
+  margin: 10px 0;
+  display: block;
+  color: black !important;
+}
+
+div[data-orgtag="subheadword"] {
+  font-weight: bold;
+  display: inline;
+  padding-right: 10px;
+}
+
+jae {
+  font-size: 15px;
+  color: #1f2937 !important;
+}
+
+ja_cn {
+  padding-left: 10px;
+  font-style: normal;
+  display: inline;
+  color: grey;
+  font-size: 13px;
+}
+
+.subhw_meaning {
+  display: inline;
+  color: grey;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.shogakukan a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.shogakukan h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.shogakukan .description {
+  margin-bottom: 10px;
+}
